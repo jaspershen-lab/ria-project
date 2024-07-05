@@ -14,3 +14,5 @@ setwd("3-data_analysis/2-data-summary/2-gut-microbiome")
 dim(gut_microbiome_data)
 
 gut_microbiome_data@sample_info$group
+
+table(gut_microbiome_data@sample_info$group)

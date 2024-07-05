@@ -44,3 +44,7 @@ targeted_metabolomics_data <-
     sample_info = sample_info,
     variable_info = variable_info
   )
+
+dim(targeted_metabolomics_data)
+
+save(targeted_metabolomics_data, file = "targeted_metabolomics_data.rda")
